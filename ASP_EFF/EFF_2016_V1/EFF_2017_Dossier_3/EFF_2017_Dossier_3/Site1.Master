@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EFF_2017_Dossier_3.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Human-Co Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="style1">
+        <h1>Human-Co</h1>
+        <div class="style1">
+&nbsp;<asp:Label ID="Label_username" runat="server"></asp:Label>
+&nbsp;<asp:HyperLink ID="HyperLink_login" runat="server" NavigateUrl="~/login.aspx">Se connecter</asp:HyperLink>
+            &nbsp;<asp:LinkButton ID="LinkButton_logout" runat="server" 
+                onclick="LinkButton_logout_Click" CausesValidation="False">Se déconnecter</asp:LinkButton>
+            <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/default.aspx">Accueil</asp:HyperLink>
+        &nbsp;
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/campagnes.aspx">Campagnes en cours</asp:HyperLink>
+        &nbsp;<asp:HyperLink ID="HyperLink3" runat="server" 
+            NavigateUrl="~/inscrire-participant.aspx">S&#39;inscrire comme participant</asp:HyperLink>
+        &nbsp;<asp:HyperLink ID="HyperLink4" runat="server" 
+            NavigateUrl="~/gestion-campagnes.aspx">Gestion des campagnes</asp:HyperLink>
+        &nbsp;<asp:HyperLink ID="HyperLink5" runat="server" 
+            NavigateUrl="~/participants.aspx">Participants</asp:HyperLink>
+        <br />
+        <br />
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        (C) Human-Co. 2016
+    </div>
+    </form>
+</body>
+</html>

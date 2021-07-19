@@ -1,0 +1,10 @@
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\bin\ASP_TP2.dll
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\bin\ASP_TP2.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\obj\Debug\ASP_TP2.dll
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\obj\Debug\ASP_TP2.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\obj\Debug\ASP_TP2.csprojResolveAssemblyReference.cache
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP2\ASP_TP2\ASP_TP2\bin\ASP_TP2.dll
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP2\ASP_TP2\ASP_TP2\bin\ASP_TP2.pdb
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP2\ASP_TP2\ASP_TP2\obj\Debug\ASP_TP2.csprojResolveAssemblyReference.cache
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP2\ASP_TP2\ASP_TP2\obj\Debug\ASP_TP2.dll
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP2\ASP_TP2\ASP_TP2\obj\Debug\ASP_TP2.pdb

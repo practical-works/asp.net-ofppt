@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="recette">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"></xs:element>
+        <xs:element name="portion" type="xs:string"></xs:element>
+        <xs:element name="preparation" type="preparationType"></xs:element>
+        <xs:element name="cuisson" type="cuissonType"></xs:element>
+        <xs:element name="repos" type="reposType"></xs:element>
+        <xs:element name="ingredients" type="ingredientsType"></xs:element>
+        <xs:element name="guide" type="guideType"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:attribute name="value" type="xs:positiveInteger"></xs:attribute>
+  <xs:attribute name="unit" type="xs:string"></xs:attribute>
+
+  <xs:complexType name="preparationType">
+    <xs:attribute ref="value"></xs:attribute>
+    <xs:attribute ref="unit"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="cuissonType">
+    <xs:attribute ref="value"></xs:attribute>
+    <xs:attribute ref="unit"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="reposType">
+    <xs:attribute ref="value"></xs:attribute>
+    <xs:attribute ref="unit"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="ingredientsType">
+    <xs:sequence>
+      <xs:element name="i" type="iType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="guideType">
+    <xs:sequence>
+      <xs:element name="block" type="xs:string"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="iType">
+    <xs:sequence>
+      <xs:element name="nom" type="nomType"></xs:element>
+      <xs:element name="nbre" type="xs:positiveInteger" minOccurs="0"></xs:element>
+      <xs:element name="poids" type="poidsType" minOccurs="0"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="nomType">
+    <xs:attribute name="id" type="xs:string"></xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="poidsType">
+    <xs:attribute ref="unit"></xs:attribute>
+  </xs:complexType>
+</xs:schema>

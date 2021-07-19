@@ -1,0 +1,12 @@
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\bin\Debug\EFF_2016_Dossier_2.exe
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\bin\Debug\EFF_2016_Dossier_2.pdb
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.Form_MAJ_Appareil.resources
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.Form_Menu.resources
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.Properties.Resources.resources
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.csproj.GenerateResource.Cache
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.exe
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.pdb
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.Form_RECH_Appareil.resources
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\bin\Debug\EFF_2016_Dossier_2.exe.config
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.csprojResolveAssemblyReference.cache
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_2\EFF_2016_Dossier_2\obj\x86\Debug\EFF_2016_Dossier_2.Form_ReportViewer.resources

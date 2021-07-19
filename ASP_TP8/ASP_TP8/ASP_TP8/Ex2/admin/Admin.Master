@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ASP_TP8.Ex2.admin.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Administration</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 231px;
+            height: 107px;
+            float: left;
+        }
+        .style4
+        {
+            width: 30%;
+            vertical-align: middle;
+        }
+        .background
+        {
+            margin: 50px;
+            background: rgb(207,231,250);
+            background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%);
+            background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%);
+            background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 );
+
+        }
+        .style5
+        {
+            vertical-align: middle;
+            text-align: right;
+        }
+    </style>
+</head>
+<body class="background">
+    <form id="form1" runat="server">
+    <div>
+        <table class="table">
+            <tr>
+                <td class="style5">
+                <img alt="MesAchats" class="style1" src="../img/mesachats_logo.png" /><h1 
+                        style="text-align: right">Panneau d'administration</h1>
+                    Vous êtes connecté en tant que 
+                    <div class="btnaction dropdown">
+                      <img alt="user" src="../img/user.png" />
+                      <asp:HyperLink href="#" ID="HyperLink1" runat="server">anonyme</asp:HyperLink>
+                      <div class="dropdown-content">
+                        <asp:HyperLink href="" ID="HyperLink2" runat="server">Changer le mot de passe</asp:HyperLink><br />
+                        <asp:HyperLink href="" ID="HyperLink4" runat="server">Se déconnecter</asp:HyperLink>
+                      </div>
+                    </div>
+                    <br />
+                    <asp:Literal ID="lit_pageName" runat="server"></asp:Literal>
+                    <asp:Button ID="btn_admin" runat="server" CssClass="menubutton" Text="Accueil" 
+                        Width="137px" />
+                    <asp:Button ID="btn_customers" runat="server" CssClass="menubutton" 
+                        Text="Clients" Width="137px" PostBackUrl="~/Ex2/admin/customers.aspx" />
+                    <asp:Button ID="btn_items" runat="server" CssClass="menubutton" Text="Articles" 
+                        Width="137px" PostBackUrl="~/Ex2/admin/items.aspx" />
+                    <asp:Button ID="btn_commands" runat="server" CssClass="menubutton" 
+                        Text="Commandes" Width="137px" PostBackUrl="~/Ex2/admin/commands.aspx" />
+                    <br /></td>
+            </tr>
+            <tr>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="copyright" dir="ltr">
+                    <br />
+                    © 2017 Ambratolm<br />
+                    </span></td>
+            </tr>
+        </table>
+&nbsp;
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\Ambratolm\Desktop\ASP_TP5\ASP_TP5\bin\ASP_TP5.dll
+C:\Users\Ambratolm\Desktop\ASP_TP5\ASP_TP5\bin\ASP_TP5.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP5\ASP_TP5\obj\Debug\ASP_TP5.dll
+C:\Users\Ambratolm\Desktop\ASP_TP5\ASP_TP5\obj\Debug\ASP_TP5.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP5\ASP_TP5\obj\Debug\ASP_TP5.csprojResolveAssemblyReference.cache

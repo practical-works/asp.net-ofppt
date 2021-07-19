@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ASP_TP9.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WebSite.com</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body
+        {
+            border: 1px solid black;
+        }
+        a:hover
+        {
+            text-decoration: none;
+        }
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            text-align: center;
+            background-color: #CCCCFF;
+        }
+        .style3
+        {
+            height: 29px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <table class="style1">
+            <tr>
+                <td class="style3" colspan="2" style="background-color: #CCCCFF">
+                    <h1>SiteWeb.com</h1></td>
+            </tr>
+            <tr>
+                <td style="text-align: left; background-color: #CCFFCC;">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="#">[HyperLink1]</asp:HyperLink>
+&nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="#">[HyperLink2]</asp:HyperLink>
+&nbsp;<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="#">[HyperLink3]</asp:HyperLink>
+                </td>
+                <td style="text-align: right; background-color: #CCFFCC;">
+                    <asp:Label ID="Label_username" runat="server" Text="Anonyme"></asp:Label>
+&nbsp;<a id="link_logout" href="#" runat="server">Se déconnecter</a></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" colspan="2">
+                    <br />
+                    (c) SiteWeb.com 2017 
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[Session_Start]
+Session ID: x1qey4yt3o1gckij53ohhi5o
+Client Browser: Firefox
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:05:14
+
+[Session_Start]
+Session ID: x1qey4yt3o1gckij53ohhi5o
+Client Browser: Firefox
+Referrer URL: http://localhost:1716/Ex2/secret1.aspx
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:05:52
+
+[Session_Start]
+Session ID: x1qey4yt3o1gckij53ohhi5o
+Client Browser: Firefox
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:07:29
+
+[Session_Start]
+Session ID: x1qey4yt3o1gckij53ohhi5o
+Client Browser: Firefox
+Referrer URL: http://localhost:1716/Ex2/secret2.aspx
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:08:19
+
+[Session_Start]
+Session ID: j4c3obedbloz45y5yscmxkkx
+Client Browser: InternetExplorer
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:11:01
+
+[Session_Start]
+Session ID: thq1fbeicn0y0vnpqsddup4x
+Client Browser: Chrome
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:12:03
+
+[Session_Start]
+Session ID: j4c3obedbloz45y5yscmxkkx
+Client Browser: InternetExplorer
+Referrer URL: http://localhost:1716/Ex2/login.aspx
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:19:41
+
+[Session_Start]
+Session ID: thq1fbeicn0y0vnpqsddup4x
+Client Browser: Chrome
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:19:53
+
+[Session_Start]
+Session ID: j4c3obedbloz45y5yscmxkkx
+Client Browser: InternetExplorer
+Referrer URL: http://localhost:1716/Ex2/secret1.aspx
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 03/04/2017 12:19:57
+
+[Session_Start]
+Session ID: srx25ya4vzjtfthr2el4fjqs
+Client Browser: Firefox
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex2/login.aspx
+Event Date: 04/04/2017 09:41:05
+
+[Session_Start]
+Session ID: vmiwkai5cg12fgmxssaaqail
+Client Browser: Firefox
+Referrer URL: 
+Requested URL: http://localhost:1716/Ex3/index.aspx
+Event Date: 07/05/2017 20:41:32
+

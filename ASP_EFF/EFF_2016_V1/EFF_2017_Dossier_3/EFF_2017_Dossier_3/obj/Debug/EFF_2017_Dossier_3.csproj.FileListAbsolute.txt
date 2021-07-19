@@ -1,0 +1,4 @@
+C:\Users\Ambratolm\Desktop\EFF_2017_Dossier_3\EFF_2017_Dossier_3\bin\EFF_2017_Dossier_3.dll
+C:\Users\Ambratolm\Desktop\EFF_2017_Dossier_3\EFF_2017_Dossier_3\bin\EFF_2017_Dossier_3.pdb
+C:\Users\Ambratolm\Desktop\EFF_2017_Dossier_3\EFF_2017_Dossier_3\obj\Debug\EFF_2017_Dossier_3.dll
+C:\Users\Ambratolm\Desktop\EFF_2017_Dossier_3\EFF_2017_Dossier_3\obj\Debug\EFF_2017_Dossier_3.pdb

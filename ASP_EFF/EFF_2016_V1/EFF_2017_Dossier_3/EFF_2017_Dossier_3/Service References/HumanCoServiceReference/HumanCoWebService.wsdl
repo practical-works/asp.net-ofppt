@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="NombreParticipantsCampagne">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idCamp" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NombreParticipantsCampagneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="NombreParticipantsCampagneResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NombreParticipantsCampagneSoapIn">
+    <wsdl:part name="parameters" element="tns:NombreParticipantsCampagne" />
+  </wsdl:message>
+  <wsdl:message name="NombreParticipantsCampagneSoapOut">
+    <wsdl:part name="parameters" element="tns:NombreParticipantsCampagneResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HumanCoWebServiceSoap">
+    <wsdl:operation name="NombreParticipantsCampagne">
+      <wsdl:input message="tns:NombreParticipantsCampagneSoapIn" />
+      <wsdl:output message="tns:NombreParticipantsCampagneSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HumanCoWebServiceSoap" type="tns:HumanCoWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NombreParticipantsCampagne">
+      <soap:operation soapAction="http://tempuri.org/NombreParticipantsCampagne" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HumanCoWebServiceSoap12" type="tns:HumanCoWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NombreParticipantsCampagne">
+      <soap12:operation soapAction="http://tempuri.org/NombreParticipantsCampagne" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HumanCoWebService">
+    <wsdl:port name="HumanCoWebServiceSoap" binding="tns:HumanCoWebServiceSoap">
+      <soap:address location="http://localhost:2213/HumanCoWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HumanCoWebServiceSoap12" binding="tns:HumanCoWebServiceSoap12">
+      <soap12:address location="http://localhost:2213/HumanCoWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

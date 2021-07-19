@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ASP_TP8_Ex2.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mes Achats - Commandez en ligne</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .brd
+        {
+            border-top: 1px dotted skyblue;
+            border-bottom: 1px dotted skyblue;
+            box-shadow: 0px 0px 20px skyblue;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <table class="main-table">
+        
+        <tr class="header-row">
+            <td>
+                <div class="header-row-left">
+                    <a href="../default.aspx"><img src="../images/logo.png" alt="MesAchats" /></a>
+                </div>
+
+                <div class="header-row-right">
+                    
+                    <a class="user-link" href="~/account/signup.aspx" 
+                        id="link_signup" runat="server">S'inscrire</a>
+                    <a class="user-link" href="~/account/login.aspx" 
+                        id="link_login" runat="server">Se connecter</a>
+                
+                    <a href="~/account/profil.aspx" 
+                        id="link_profil" runat="server">Profile</a>
+                    <a class="user-link" href="~/account/cart.aspx" 
+                        id="link_cart" runat="server">Panier</a>
+                    <a class="user-link" 
+                        id="link_logout" runat="server">Se déconnecter</a>
+
+                </div>
+            </td>
+        </tr>
+        
+        <tr class="menu-row">
+            <td colspan="2" class="brd">
+                <br />
+                <a class="menu-link" href="../default.aspx" id="link_default">Accueil</a>
+                <a class="menu-link" href="../articles.aspx" id="link_articles">Articles</a>
+                <a class="menu-link" href="../about.aspx" id="link_about">A propos</a>
+                <br />
+                <br />
+            </td>
+        </tr>
+        
+        <tr class="content-row">
+            <td colspan="2">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        
+        <tr class="footer-row">
+            <td colspan="2">
+            <span>
+                    <br />
+                    <br />
+                    © 2017 Ambratolm<br />
+                        <a href="#">Conditions d&#39;utilisation</a>&nbsp;
+                        <a href="#">Confidentialité</a>&nbsp;
+                        <a href="#">Règles et sécurité </a>
+                        &nbsp;<a href="#">Votre avis</a>
+                    <br />
+                    <br />
+                    </span>
+            </td>
+        </tr>
+
+    </table>
+    
+    </form>
+</body>
+</html>

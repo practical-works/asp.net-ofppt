@@ -1,0 +1,5 @@
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_3\EFF_2016_Dossier_3\bin\EFF_2016_Dossier_3.dll
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_3\EFF_2016_Dossier_3\bin\EFF_2016_Dossier_3.pdb
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_3\EFF_2016_Dossier_3\obj\Debug\EFF_2016_Dossier_3.dll
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_3\EFF_2016_Dossier_3\obj\Debug\EFF_2016_Dossier_3.pdb
+C:\Users\Ambratolm\Desktop\EFF_2016_V2\EFF_2016_Dossier_3\EFF_2016_Dossier_3\obj\Debug\EFF_2016_Dossier_3.csprojResolveAssemblyReference.cache

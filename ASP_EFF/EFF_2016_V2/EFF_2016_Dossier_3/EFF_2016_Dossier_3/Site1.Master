@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EFF_2016_Dossier_3.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Location d'appareils</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style3
+        {
+            width: 100%;
+        }
+        .style4
+        {
+            text-align: right;
+        }
+        .nouveauStyle1
+        {
+            border: thin solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <h1>Site Web de location d'appareils</h1>
+        <table class="style3">
+            <tr>
+                <td>
+                    <asp:HyperLink ID="link_default" runat="server" NavigateUrl="~/default.aspx">Accueil</asp:HyperLink>
+                    &nbsp;|
+                    <asp:HyperLink ID="link_new_appareil" runat="server" 
+                        NavigateUrl="~/new-appareil.aspx">Ajouter un nouvel appareil</asp:HyperLink>
+                    &nbsp;|&nbsp;
+                    <asp:HyperLink ID="link_update_appareil" runat="server" 
+                        NavigateUrl="~/update-appareil.aspx">Mettre à jour les appareils</asp:HyperLink>
+                    <br />
+                    _____________________________________________________________<br />
+                </td>
+                <td class="style4">
+&nbsp;<asp:HyperLink ID="link_profil" runat="server" NavigateUrl="~/profil.aspx">[link_profil]</asp:HyperLink>
+                    &nbsp;<asp:HyperLink ID="link_login" runat="server" NavigateUrl="~/login.aspx">Se connecter</asp:HyperLink>
+                    &nbsp;<asp:LinkButton ID="btn_logout" runat="server" onclick="btn_logout_Click">Se déconnecter</asp:LinkButton>
+                    <br />
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        _____________________________________________________________<br />
+        (c) Location d'appareils. 2017
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>

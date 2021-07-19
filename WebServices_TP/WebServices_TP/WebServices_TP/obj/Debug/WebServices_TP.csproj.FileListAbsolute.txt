@@ -1,0 +1,4 @@
+C:\Users\Ambratolm\Desktop\WebServices_TP\WebServices_TP\bin\WebServices_TP.dll
+C:\Users\Ambratolm\Desktop\WebServices_TP\WebServices_TP\bin\WebServices_TP.pdb
+C:\Users\Ambratolm\Desktop\WebServices_TP\WebServices_TP\obj\Debug\WebServices_TP.dll
+C:\Users\Ambratolm\Desktop\WebServices_TP\WebServices_TP\obj\Debug\WebServices_TP.pdb

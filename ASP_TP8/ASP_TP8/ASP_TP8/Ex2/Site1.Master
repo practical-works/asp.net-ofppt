@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ASP_TP8.Ex2.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Gestion des Ventes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />    
+    <asp:contentplaceholder ID="Head" runat="server"></asp:contentplaceholder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            background-color: White;
+            text-align: right;
+        }
+        .style3
+        {
+            text-align: center;
+        }
+        .style4
+        {
+            width: 216px;
+            height: 96px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <table class="style1">
+            <tr id="header">
+                <td class="style2">
+                    <a href="default.aspx"><img alt="Mes achats" class="style4" 
+                        src="../Ex2/img/mesachats_logo.png" /></a><asp:Button ID="btn_signup" runat="server" CssClass="actionbutton" 
+                        PostBackUrl="~/Ex2/signup.aspx" Text="S'inscrire" />
+                    <asp:Button ID="btn_login" 
+                        runat="server" CssClass="actionbutton" 
+                        PostBackUrl="~/Ex2/login.aspx" Text="Se connecter" />
+                    <asp:Button ID="btn_profil" runat="server" CssClass="actionbutton" 
+                        PostBackUrl="~/Ex2/profile.aspx" Text="Mon profile" Visible="False" />
+                    <asp:Button ID="btn_cmd" runat="server" CssClass="actionbutton" 
+                        PostBackUrl="~/Ex2/commands.aspx" Text="Mes commandes" Visible="False" />
+                    <asp:Button ID="btn_logout" runat="server" CssClass="actionbutton" 
+                        PostBackUrl="~/Ex2/default.aspx" Text="Se déconnecter" 
+                        onclick="btn_logout_Click" Visible="False" />
+                </td>
+            </tr>
+            <tr>
+                <td id="menu" style="text-align: center;">
+                    <asp:Button ID="btn_home" runat="server" CssClass="menubutton" 
+                        PostBackUrl="~/Ex2/default.aspx" Text="Accueil" />
+                    <asp:Button ID="btn_items" runat="server" CssClass="menubutton" 
+                        PostBackUrl="~/Ex2/items.aspx" Text="Articles" />
+                    <asp:Button ID="btn_about" runat="server" CssClass="menubutton" 
+                        PostBackUrl="~/Ex2/about.aspx" Text="A propos" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr >
+                <td id="footer" class="style3">
+                    <span class="copyright" dir="ltr">
+                    <br />
+                    © 2017 Ambratolm<br />
+                        <a href="#">Conditions d&#39;utilisation</a>&nbsp;
+                        <a href="#">Confidentialité</a>&nbsp;
+                        <a href="#">Règles et sécurité </a>
+                        &nbsp;<a href="#">Votre avis</a>
+                    <br />
+                    <br />
+                    </span></td>
+            </tr>
+        </table>
+
+    </div>
+    </form>
+</body>
+</html>

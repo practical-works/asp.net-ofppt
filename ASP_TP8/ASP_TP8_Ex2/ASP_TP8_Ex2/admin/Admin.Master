@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ASP_TP8_Ex2.admin.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Panneau d'administration</title>
+    <link href="../styles/admin.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/special.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="main-table">
+            
+            <tr class="header-row">
+                <td class="header-row-left" colspan=2>
+                    <img alt="MesAchats" src="../images/logo.png" />
+                    <h1>Panneau d'administration</h1>
+                    Vous êtes connecté en tant que 
+                    <div class="dropdown">
+                      <a id="link_profil" href="#" runat="server">anonyme</a>
+                      <div class="dropdown-content">
+                        <a href="" ID="link_pass" runat="server">Changer le mot de passe</a><br />
+                        <a href="" ID="link_logout" runat="server">Se déconnecter</a>
+                      </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td class="header-row-left">
+                    <br />
+                    <asp:Button ID="btn_admin" runat="server" CssClass="menu-link" Text="Accueil" 
+                        Width="137px" PostBackUrl="~/admin/admin.aspx" /><br />
+                    <asp:Button ID="btn_customers" runat="server" CssClass="menu-link" 
+                        Text="Clients" Width="137px" PostBackUrl="~/admin/clients.aspx" /><br />
+                    <asp:Button ID="btn_items" runat="server" CssClass="menu-link" Text="Articles" 
+                        Width="137px" PostBackUrl="~/admin/articles.aspx" /><br />
+                    <asp:Button ID="btn_commands" runat="server" CssClass="menu-link" 
+                        Text="Commandes" Width="137px" PostBackUrl="~/admin/commandes.aspx" /><br />
+                </td>
+
+                <td class="content-row">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+
+            <tr class="footer-row">
+                <td>
+                    <span"><br />© 2017 Ambratolm <br /> <br /></span>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    </form>
+</body>
+</html>

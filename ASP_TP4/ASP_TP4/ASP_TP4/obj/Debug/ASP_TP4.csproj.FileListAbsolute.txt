@@ -1,0 +1,8 @@
+C:\Users\Ambratolm\Desktop\ASP_TP4\ASP_TP4\bin\ASP_TP4.dll
+C:\Users\Ambratolm\Desktop\ASP_TP4\ASP_TP4\bin\ASP_TP4.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP4\ASP_TP4\obj\Debug\ASP_TP4.dll
+C:\Users\Ambratolm\Desktop\ASP_TP4\ASP_TP4\obj\Debug\ASP_TP4.pdb
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP4\ASP_TP4\ASP_TP4\bin\ASP_TP4.dll
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP4\ASP_TP4\ASP_TP4\bin\ASP_TP4.pdb
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP4\ASP_TP4\ASP_TP4\obj\Debug\ASP_TP4.dll
+C:\Users\Ambratolm\Projects\1. My Programs\Travaux Pratiques\Programmation\ASP .NET\ASP_TP4\ASP_TP4\ASP_TP4\obj\Debug\ASP_TP4.pdb

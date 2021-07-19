@@ -1,0 +1,4 @@
+C:\Users\Ambratolm\Desktop\ASP_TP7\ASP_TP7\bin\ASP_TP7.dll
+C:\Users\Ambratolm\Desktop\ASP_TP7\ASP_TP7\bin\ASP_TP7.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP7\ASP_TP7\obj\Debug\ASP_TP7.dll
+C:\Users\Ambratolm\Desktop\ASP_TP7\ASP_TP7\obj\Debug\ASP_TP7.pdb

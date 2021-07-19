@@ -1,0 +1,11 @@
+<!ELEMENT livre (formation+)>
+<!ELEMENT formation (code, titre, modules, responsable*)>
+
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT modules (module+)>
+<!ELEMENT responsable (nom)>
+
+<!ELEMENT module (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST responsable date CDATA #REQUIRED>

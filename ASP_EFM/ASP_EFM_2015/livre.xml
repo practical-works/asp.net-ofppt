@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE livre SYSTEM "livre.dtd">
+<?xml-stylesheet type="text/xsl" href="livre.xsl"?>
+<livre>
+  <formation>
+    <code>1</code>
+    <titre>Développement informatique</titre>
+    <modules>
+      <module>Programmation</module>
+      <module>Conception</module>
+      <module>Base de données</module>
+      <module>Algorithmes</module>
+    </modules>
+    <responsable date="20/11/2020">
+      <nom>Mohamed Mohamed</nom>
+    </responsable>
+  </formation>
+  
+  <formation>
+    <code>2</code>
+    <titre>Réseaux informatiques</titre>
+    <modules>
+      <module>Programmation</module>
+      <module>Administration des systèmes</module>
+      <module>Réseaux</module>
+    </modules>
+    <responsable date="20/11/2020">
+      <nom>Fatima Fatima</nom>
+    </responsable>
+  </formation>
+</livre>

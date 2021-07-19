@@ -1,0 +1,4 @@
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\bin\ASP_TP2.dll
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\bin\ASP_TP2.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\obj\Release\ASP_TP2.dll
+C:\Users\Ambratolm\Desktop\ASP_TP2\ASP_TP2\obj\Release\ASP_TP2.pdb

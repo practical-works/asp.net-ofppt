@@ -1,0 +1,5 @@
+C:\Users\Ambratolm\Desktop\ASP_TP8\ASP_TP8\bin\ASP_TP8.dll
+C:\Users\Ambratolm\Desktop\ASP_TP8\ASP_TP8\bin\ASP_TP8.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP8\ASP_TP8\obj\Debug\ASP_TP8.dll
+C:\Users\Ambratolm\Desktop\ASP_TP8\ASP_TP8\obj\Debug\ASP_TP8.pdb
+C:\Users\Ambratolm\Desktop\ASP_TP8\ASP_TP8\obj\Debug\ASP_TP8.csprojResolveAssemblyReference.cache
