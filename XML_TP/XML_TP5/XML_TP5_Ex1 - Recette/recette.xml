@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="recette.xslt"?>
+<recette>
+  <entete>
+    <auteur>ZINEB TAHOR</auteur>
+    <titre>Recette du jour</titre>
+    <remarque>Pour une personne</remarque>
+  </entete>
+  <procedure>
+    Remplir un saladier avec de la confiture de fraises, du chocolat râpé,
+    des bananes écrasées, de la moutarde forte, des saucisses de Toulouse écrasées tièdes mais
+    crues. Mélanger vigoureusement jusqu'à obtenir une bouillie marron-clair. Il est normal qu'il y
+    ait des grumeaux. Les proportions sont environ égales pour tous les ingrédients, mais il est
+    possible de varier selon les goûts de chacun.
+  </procedure>
+</recette>

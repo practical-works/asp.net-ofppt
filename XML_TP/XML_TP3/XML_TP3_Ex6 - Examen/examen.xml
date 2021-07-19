@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<examen
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="examen.xsd">
+  <code-cours>E1</code-cours>
+  <titre>ENF</titre>
+  <date>
+    <mois>--08</mois>
+    <annee>1991</annee>
+  </date>
+  <questions>
+    <question>
+      <partie>Partie 1
+        <partie>Partie 1-1</partie>Ici le texte de la partie
+        <partie>Partie 1-2</partie>Ici le texte de la partie
+        <partie>Partie 1-3</partie>Ici le texte de la partie
+      </partie>
+      <partie>Partie 2
+        <partie>Partie 2-1</partie>Ici le texte de la partie
+        <partie>Partie 2-2</partie>Ici le texte de la partie
+        <partie>Partie 2-3</partie>Ici le texte de la partie
+      </partie>
+    </question>
+    <question>
+      <partie>
+        Partie 1
+        <partie>Partie 1-1</partie>Ici le texte de la partie
+        <partie>Partie 1-2</partie>Ici le texte de la partie
+        <partie>Partie 1-3</partie>Ici le texte de la partie
+      </partie>
+      <partie>
+        Partie 2
+        <partie>Partie 2-1</partie>Ici le texte de la partie
+        <partie>Partie 2-2</partie>Ici le texte de la partie
+        <partie>Partie 2-3</partie>Ici le texte de la partie
+      </partie>
+    </question>
+    <question>
+      <partie>
+        Partie 1
+        <partie>Partie 1-1</partie>Ici le texte de la partie
+        <partie>Partie 1-2</partie>Ici le texte de la partie
+        <partie>Partie 1-3</partie>Ici le texte de la partie
+      </partie>
+      <partie>
+        Partie 2
+        <partie>Partie 2-1</partie>Ici le texte de la partie
+        <partie>Partie 2-2</partie>Ici le texte de la partie
+        <partie>Partie 2-3</partie>Ici le texte de la partie
+      </partie>
+    </question>
+    <question>
+      <partie>
+        Partie 1
+        <partie>Partie 1-1</partie>Ici le texte de la partie
+        <partie>Partie 1-2</partie>Ici le texte de la partie
+        <partie>Partie 1-3</partie>Ici le texte de la partie
+      </partie>
+      <partie>
+        Partie 2
+        <partie>Partie 2-1</partie>Ici le texte de la partie
+        <partie>Partie 2-2</partie>Ici le texte de la partie
+        <partie>Partie 2-3</partie>Ici le texte de la partie
+      </partie>
+    </question>
+    <question>
+      <partie>
+        Partie 1
+        <partie>Partie 1-1</partie>Ici le texte de la partie
+        <partie>Partie 1-2</partie>Ici le texte de la partie
+        <partie>Partie 1-3</partie>Ici le texte de la partie
+      </partie>
+      <partie>
+        Partie 2
+        <partie>Partie 2-1</partie>Ici le texte de la partie
+        <partie>Partie 2-2</partie>Ici le texte de la partie
+        <partie>Partie 2-3</partie>Ici le texte de la partie
+      </partie>
+    </question>
+  </questions>
+</examen>

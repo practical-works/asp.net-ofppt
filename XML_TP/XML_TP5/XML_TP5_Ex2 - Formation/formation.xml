@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE formation SYSTEM "formation.dtd">
+<?xml-stylesheet type="text/xsl" href="formation_list.xsl"?>
+<formation code="MCCI">
+  <titre>Master CCI</titre>
+  <niveau>5</niveau>
+  <responsable bureau="224">
+    <prenom>Brigitte</prenom>
+    <nom>Dillon</nom>
+  </responsable>
+  
+  <module semestre="1" repere="CCI91">
+    <titre>Initiation à l'algorithmique, système et architecture</titre>
+    <horaire>50</horaire>
+    <points>3</points>
+    <programme/>
+  </module>
+  <module semestre="1" repere="CCI92">
+    <titre>Systèmes d'information</titre>
+    <horaire>100</horaire>
+    <points>6</points>
+    <programme>
+      <para>Modèles structurés</para>
+      <para>Bases de données</para>
+    </programme>
+  </module>
+  <module semestre="1" repere="CCI93">
+    <titre>Algorithmique et programmation</titre>
+    <horaire>100</horaire>
+    <points>6</points>
+    <programme>
+      <para>Algorithmique et programmation impérative</para>
+      <para>Programmation et modélisation par objet</para>
+    </programme>
+  </module>
+  <module semestre="1" repere="CCI94">
+    <titre>Systèmes et réseaux</titre>
+    <horaire>50</horaire>
+    <points>3</points>
+    <programme>
+      <para>Système Unix</para>
+      <para>Architecture des réseaux</para>
+    </programme>
+  </module>
+  <module semestre="2" repere="CCI95">
+    <titre>Modèles et documents structurés</titre>
+    <horaire>100</horaire>
+    <points>6</points>
+    <programme>
+      <para>Bases de XML</para>
+      <para>Applications en XML</para>
+    </programme>
+  </module>
+  <module semestre="2" repere="CCI101">
+    <titre>Services du web</titre>
+    <horaire>100</horaire>
+    <points>6</points>
+    <programme>
+      <para>Bases des services web</para>
+      <para>Applications des services web</para>
+    </programme>
+  </module>
+  <module semestre="2" repere="CCIstage">
+    <titre>Stage en entreprise</titre>
+    <horaire>560</horaire>
+    <points>27</points>
+    <programme/>
+  </module>
+</formation>

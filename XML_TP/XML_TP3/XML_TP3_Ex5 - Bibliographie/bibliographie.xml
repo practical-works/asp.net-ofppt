@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bibliographie
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="bibliographie.xsd">
+  <livres>
+    <livre>
+      <titre soustitre="les merveilles">Les secrets de l'hunivers</titre>
+      <auteur>Charles X</auteur>
+      <tomes>
+        <tome nbPages="10" sousTitre="Premier tome"/>
+        <tome nbPages="20"/>
+      </tomes>
+      <infosEdition>
+        <editeur>Books Home</editeur>
+        <lieuEdition>New York</lieuEdition>
+        <lieuImpression>New York</lieuImpression>
+        <ISBN>4875-7251-4521-7821</ISBN>
+      </infosEdition>
+      <avis></avis>
+    </livre>
+  </livres>
+  <articles>
+    <article>
+      <titre>Les 7 éléments</titre>
+      <auteur>Karan Jonas</auteur>
+      <infosPublication nomJournal="JouJou">
+        <pages>100</pages>
+        <anneePublication>1989</anneePublication>
+        <numéroJournal>17</numéroJournal>
+      </infosPublication>
+    </article>
+    <article>
+      <titre>Les 7 éléments</titre>
+      <auteur>Karan Jonas</auteur>
+      <infosPublication>
+        <pages>100</pages>
+        <anneePublication>1989</anneePublication>
+        <numéroJournal>17</numéroJournal>
+      </infosPublication>
+      <avis>Un avis facultatif</avis>
+    </article>
+  </articles>
+</bibliographie>

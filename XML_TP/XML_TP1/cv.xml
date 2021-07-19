@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+	<photo src="photo.jpg" />
+	<profil>
+		<nom>Abb</nom>
+		<adresse>DB GDA N°1000</adresse>
+		<telephone>0612345678</telephone>
+		<email>example@gmail.com</email>
+		<age>20</age>
+		<etat-civil>Célibataire</etat-civil>
+	</profil>
+	<contenu>
+		<titre>Artiste/Programmeur</titre>
+		<formations>
+			<formation id="1">
+				<intervalle>2009-2010</intervalle>
+				<titre>Baccalauréat Sciences Mathématiques A</titre>
+			</formation>
+			<formation id="2">
+				<intervalle>2010-2011</intervalle>
+				<titre>1ère année à la fac</titre>
+			</formation>
+		</formations>
+		<experiences>
+			<experience id="1">
+				<intervalle>2009-2010</intervalle>
+				<titre>Projet de blabla</titre>
+				<details>Utilisation du matériel de ...</details>
+			</experience>
+		</experiences>
+		<competences>
+			<competence id="1">
+				<titre>Programmation</titre>
+				<details>Lanagages C/C++/C#/Java, IDE: Visual Studio, NetBeans</details>
+			</competence>
+		</competences>
+		<plus>
+			<Langues>
+				<Langue id="1">
+					<titre>Arabe</titre>
+					<niveau>Maternelle</niveau>
+				</Langue>
+				<Langue id="2">
+					<titre>Français</titre>
+					<niveau>Bien</niveau>
+				</Langue>
+				<Langue id="3">
+					<titre>Anglais</titre>
+					<niveau>Assez bien</niveau>
+				</Langue>
+			</Langues>
+			<Loisirs>
+				<Loisir id="1">Football</Loisir>
+				<Loisir id="2">Jeux vidéo</Loisir>
+				<Loisir id="3">Musique</Loisir>
+			</Loisirs>
+		</plus>
+	</contenu>		
+</cv>

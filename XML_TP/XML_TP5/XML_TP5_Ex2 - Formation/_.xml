@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_.xsl"?>
+<A>
+  <B>A / B1</B>
+  <B>A / B2</B>
+  <C>
+    <X>A / C / X1</X>
+    <X>A / C / X2</X>
+    <X>A / C / X3</X>
+  </C>
+</A>

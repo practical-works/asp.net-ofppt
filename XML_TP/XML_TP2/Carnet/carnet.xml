@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE carnet SYSTEM "carnet.dtd">
+<carnet>
+  <personne nom="nomaoui" prenom="prenomus"  adresse="adressus N°23148"/>
+  <personne nom="kawanoui" prenom="adilomix" adresse="koram N°4654" />
+  <personne nom="rozam" prenom="konai" adresse="iax N°7754 FDKS" />
+  <personne nom="homani" prenom="rocky" adresse="kassor N°X-75821" />
+  <personne nom="larabox" prenom="baldur" adresse="roman central aatrox 5421" />
+</carnet>

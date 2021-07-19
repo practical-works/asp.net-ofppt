@@ -1,0 +1,19 @@
+<!ELEMENT annuaire (personne)>
+<!ELEMENT personne (nom, prenom, adresse)>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT adresse (rue, code-postal, ville, telephones)>
+
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT code-postal (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT telephones (telephone+)>
+<!ELEMENT telephone (#PCDATA)>
+
+<!ATTLIST personne
+  id CDATA #REQUIRED
+>
+<!ATTLIST telephone
+  type CDATA #REQUIRED
+>

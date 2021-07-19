@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annuaire>
+	<personne id="1">
+		<nom>Nouâman</nom>
+		<prenom>Roumaissa</prenom>
+		<adresse>
+			<rue>DB El amid N°17</rue>
+			<code-postal>40050</code-postal>
+			<ville>Marrakech</ville>
+			<telephones>
+				<telephone type="mobile">0678254789</telephone>
+				<telephone type="fixe">0598254710</telephone>
+			</telephones>
+		</adresse>
+	</personne>
+	<personne id="2">
+		<nom>El alami</nom>
+		<prenom>Rayan</prenom>
+		<adresse>
+			<rue>DB El omari N°20</rue>
+			<code-postal>10000</code-postal>
+			<ville>Marrakech</ville>
+			<telephones>
+				<telephone type="mobile">0699478299</telephone>
+				<telephone type="fixe">0598221459</telephone>
+			</telephones>
+		</adresse>
+	</personne>
+</annuaire>

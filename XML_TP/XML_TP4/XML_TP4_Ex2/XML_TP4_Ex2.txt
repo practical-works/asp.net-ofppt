@@ -1,0 +1,85 @@
+Ecrire les chemins XPath permettant de localiser les noeuds suivants. Localiser ces
+noeuds dans l'arbre (en donnant leur valeur) :
+
+1) l'élément racine AAA
+/AAA
+
+2) tous les éléments CCC qui sont enfants de l'élément racine AAA
+/AAA/CCC
+
+3) tous les éléments BBB qui sont enfants de DDD, qui sont enfants de l'élément racine AAA
+/AAA/DDD/BBB
+
+4) tous les éléments BBB
+//BBB
+
+5) tous les éléments BBB qui sont enfants de DDD
+//DDD/BBB
+
+6) tous les éléments inclus dans les éléments /AAA/CCC/DDD
+/AAA/CCC/DDD/*
+
+7) tous les éléments BBB qui ont (exactement) trois ancêtres
+/*/*/*/BBB
+
+8) tous les éléments
+/*
+
+9) le premier élément BBB, fils de l'élément racine AAA
+/AAA/BBB[1]
+
+10) le dernier élément BBB, fils de l'élément racine AAA
+AAA/BBB[last()]
+
+11) tous les attributs id
+//@id
+
+12) tous les éléments BBB qui ont un attribut id
+//BBB[@id]
+
+13) tous les éléments BBB qui ont un attribut name
+//BBB[@name]
+
+14) tous les éléments BBB qui ont un attribut
+//BBB[@*]
+
+15) tous les éléments BBB qui n'ont pas d'attribut id
+//BBB[not(@id)]
+
+16) tous les éléments BBB ayant un attribut id dont la valeur est id1
+//BBB[@id = 'id1']
+
+17) tous les éléments BBB ayant un attribut name dont la valeur est bbb
+//BBB[@name = 'bbb']
+
+18) tous les éléments BBB ayant un attribut name dont la valeur est bbb. Les espaces de
+début et de fin sont supprimés avant la comparaison.
+//BBB[normalize-space(@name)='bbb']
+
+19) les éléments ayant deux enfants BBB
+//*[count(BBB)=2]
+
+20) les éléments ayant deux enfants
+//*[count(*)=2]
+
+21) tous les éléments dont le nom commence par la lettre B
+//*[starts-with(name(),'B')]
+
+22) tous les éléments dont le nom contient la lettre C
+//*[contains(name(),'C')]
+
+23) tous les éléments qui ont un nom dont le nombre de caractères est exactement trois
+//*[string-length(name()) = 3]
+
+24) tous les éléments qui ont un nom dont le nombre de caractères est strictement
+supérieur à trois
+//*[string-length(name()) > 3]
+
+25) tous les éléments qui ont un nom de un ou deux caractères
+//*[string-length(name()) = 1 or string-length(name()) = 2]
+
+26) tous les éléments CCC et BBB
+//CCC | //BBB
+
+27) tous les éléments EEE qui sont enfants de l'élément racine AAA et tous les éléments BBB
+/AAA/EEE | //BBB

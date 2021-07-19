@@ -1,0 +1,22 @@
+Trouvez les expressions XPath qui retournent les informations suivantes :
+
+a) le cinquième livre dans la liste
+/booker/award[5]
+
+b) l'auteur du sixième livre dans la liste
+/booker/award[6]/author
+
+c) le titre du livre qui a gagné en 2000
+/booker/award[year='2000']/title
+
+d) le nom de l'auteur du livre intitulé "Possession"
+/booker/award[title='Possession']/author
+
+e) le titre des livres dont "J M Coetzee" est l'auteur
+/booker/award[author='J M Coetzee']/title
+
+f) le nom de tous les auteurs dont le livre a gagné depuis 1995
+/booker/award[year>='1995']/author
+
+g) le nombre total de prix décerné
+count(//award)

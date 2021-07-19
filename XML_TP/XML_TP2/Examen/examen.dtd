@@ -1,0 +1,12 @@
+<!ELEMENT examen (code-cours, titre, date, questions)>
+
+<!ELEMENT code-cours (#PCDATA)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT date (mois, annee)>
+<!ELEMENT mois (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
+
+<!ELEMENT questions (question, question, question, question, question, question?)>
+    <!ELEMENT question (partie+)>
+      <!ELEMENT partie ((partie?, texte+)+)>
+        <!ELEMENT texte (#PCDATA)>

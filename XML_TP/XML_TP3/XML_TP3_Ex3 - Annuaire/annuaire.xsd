@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="annuaire">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="personne" type="personneType" maxOccurs="unbounded"></xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:positiveInteger"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="personneType">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"></xs:element>
+      <xs:element name="prenom" type="xs:string"></xs:element>
+      <xs:element name="adresse" type="adresseType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID"></xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="adresseType">
+    <xs:sequence>
+      <xs:element name="rue" type="xs:string"></xs:element>
+      <xs:element name="code-postal" type="xs:positiveInteger"></xs:element>
+      <xs:element name="ville" type="xs:string"></xs:element>
+      <xs:element name="telephones" type="telephoneCollectionType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="telephoneCollectionType">
+    <xs:sequence>
+      <xs:element name="telephone" type="telephoneType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="telephoneType">
+    <xs:simpleContent>
+      <xs:extension base="xs:positiveInteger">
+        <xs:attribute name="type">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="mobile"></xs:enumeration>
+              <xs:enumeration value="fixe"></xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+    
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<annuaire
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="annuaire.xsd">
+  <contact  titre="..." techno="...">
+    <nom>...</nom>
+    <prenom>...</prenom>
+    <telephone>
+      <indicatif>212</indicatif>
+      <numero>0612345678</numero>
+    </telephone>
+    <email>...</email>
+    <email>...</email>
+  </contact>
+  <contact  titre="..." techno="...">
+    <nom>...</nom>
+    <prenom>...</prenom>
+    <telephone>
+      <indicatif>212</indicatif>
+      <numero>0612345678</numero>
+    </telephone>
+    <email>...</email>
+    <email>...</email>
+  </contact>
+</annuaire>

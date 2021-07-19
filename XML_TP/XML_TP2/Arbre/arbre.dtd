@@ -1,0 +1,9 @@
+<!ELEMENT arbre (A)>
+<!ELEMENT A (B, E)>
+
+<!ELEMENT B ((C, F),(C, F),(C, F)+)>
+<!ELEMENT C (D?)>
+<!ELEMENT F EMPTY>
+
+<!ELEMENT E (D, C, C+)>
+<!ELEMENT D EMPTY>

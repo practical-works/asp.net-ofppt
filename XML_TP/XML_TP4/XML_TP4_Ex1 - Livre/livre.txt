@@ -1,0 +1,22 @@
+À l’aide du document livre.xml :
+
+– trouver la liste de noeuds auteur ;
+//auteur ou /livre/auteurs/auteur
+
+– trouver la liste de tous les noeuds section ;
+//section ou /livre/sections/section
+
+– trouver la liste des chapitres de la première section ;
+//section[1]/chapitre
+
+– trouver la liste des attributs du premier auteur ;
+//auteur[1]/@*
+
+– trouver la valeur de l’attribut nom du deuxième auteur ;
+//auteur[2]/@nom
+
+– trouver la liste des sections avec deux chapitres ;
+//section[count(chapitre)=2]
+
+– trouver la liste des paragraphes dont le parent a pour titre Chapitre1.
+//paragraphe[@titre(..)='Chapitre1']

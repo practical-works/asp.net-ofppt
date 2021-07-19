@@ -1,0 +1,16 @@
+<!ELEMENT formation (titre, niveau, responsable, module+) >
+<!ATTLIST formation code ID #REQUIRED >
+<!ELEMENT titre (#PCDATA) >
+<!ELEMENT niveau (#PCDATA) >
+<!ELEMENT responsable (prenom, nom)>
+<!ATTLIST responsable tel CDATA #IMPLIED
+bureau CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prenom (#PCDATA) >
+<!ELEMENT module (titre, horaire, points, programme) >
+<!ATTLIST module semestre (1|2) #REQUIRED
+repere ID #REQUIRED>
+<!ELEMENT horaire (#PCDATA) >
+<!ELEMENT points (#PCDATA) >
+<!ELEMENT programme (para*) >
+<!ELEMENT para (#PCDATA) >

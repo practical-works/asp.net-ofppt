@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AAA val="racine">
+  
+  <BBB val="1"/>
+  <BBB val="2" id="id1" name="bbb"/>
+  <CCC val="3"/>
+  
+  <BBB val="4">
+    <BBB val="4.1"/>
+    <CCC val="4.2">
+      <XXX val="4.2.1">
+        <YYY val="4.2.1.1"/>
+      </XXX>
+    </CCC>
+  </BBB>
+  
+  <DDD val="5">
+    <BBB val="5.1"/>
+    <CCC val="5.2"/>
+    <DDD val="5.3"/>
+  </DDD>
+  
+  <CCC val="6"/>
+  <AAA val="7"/>
+  
+  <CCC val="8">
+    <DDD val="8.1">
+      <BBB val="8.1.1" id="id2"/>
+      <BBB val="8.1.2" name=" bbb "/>
+      <EEE val="8.1.3"/>
+      <FFF val="8.1.4"/>
+    </DDD>
+  </CCC>
+  
+  <CCC val="9">
+    <DDD val="9.1">
+      <BBB val="9.1.1">
+        <CCC val="9.1.1.1"/>
+        <CCC val="9.1.1.2"/>
+      </BBB>
+      <BBB val="9.1.2"/>
+      <EEE val="9.1.3" id="id3"/>
+      <FFF val="9.1.4" id="id4"/>
+    </DDD>
+  </CCC>
+  
+  <BBB val="10" id="id5"/>
+  <DDDD val="11"/>
+  <EE val="12"/>
+  <EEE val="13"/>
+
+</AAA>

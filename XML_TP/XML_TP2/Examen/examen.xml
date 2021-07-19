@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen>
+  <code-cours>1</code-cours>
+  <titre>Mathématiques</titre>
+  <date>
+    <mois>01</mois>
+    <annee>1991</annee>
+  </date>
+  <questions>
+    <question>
+      <partie>
+        <texte>Partie 1</texte>
+        <partie>
+          <texte>Contenu</texte>
+        </partie>
+      </partie>
+    </question>
+  </questions>
+</examen>

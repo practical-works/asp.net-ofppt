@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<livre titre="livre 2">
+	<auteurs>
+		<auteur nom="Hamdi" prenom="Mohamed"/>
+		<auteur nom="Mahmoud" prenom="Ahmed"/>
+	</auteurs>
+	<sections>
+		<section titre="section 1">
+			<chapitre titre="chapitre 1">
+				<paragraphe>Exemple de paragraphe</paragraphe>
+				<paragraphe>Exemple de paragraphe</paragraphe>
+			</chapitre>
+			<chapitre titre="chapitre 2">
+				<paragraphe>Exemple de paragraphe</paragraphe>
+				<paragraphe>Exemple de paragraphe</paragraphe>
+			</chapitre>
+		</section>
+		<section titre="section 2">
+			<chapitre titre="chapitre 1">
+				<paragraphe>Exemple de paragraphe</paragraphe>
+				<paragraphe>Exemple de paragraphe</paragraphe>
+			</chapitre>
+			<chapitre titre="chapitre 2">
+				<paragraphe>Exemple de paragraphe</paragraphe>
+				<paragraphe>Exemple de paragraphe</paragraphe>
+			</chapitre>
+		</section>
+	</sections>
+</livre>

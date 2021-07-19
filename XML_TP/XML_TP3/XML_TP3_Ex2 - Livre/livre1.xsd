@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="livre" type="livreType"></xs:element>
+
+  <xs:complexType name="livreType">
+    <xs:sequence>
+      <xs:element name="titre" type="xs:string"></xs:element>
+      <xs:element name="auteurs" type="auteursType"></xs:element>
+      <xs:element name="sections" type="sectionsType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="auteursType">
+    <xs:sequence>
+      <xs:element name="auteur" type="auteurType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sectionsType">
+    <xs:sequence>
+      <xs:element name="section" type="sectionType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="auteurType">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"></xs:element>
+      <xs:element name="prenom" type="xs:string"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sectionType">
+    <xs:sequence>
+      <xs:element name="titre" type="xs:string"></xs:element>
+      <xs:element name="chapitres" type="chapitresType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="chapitresType">
+    <xs:sequence>
+      <xs:element name="chapitre" type="chapitreType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="chapitreType">
+    <xs:sequence>
+      <xs:element name="titre" type="xs:string"></xs:element>
+      <xs:element name="paragraphes" type="paragraphesType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="paragraphesType">
+    <xs:sequence>
+      <xs:element name="paragraphe" type="xs:string" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

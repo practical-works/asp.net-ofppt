@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="examen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="code-cours" type="xs:ID"></xs:element>
+        <xs:element name="titre" type="xs:string"></xs:element>
+        <xs:element name="date" type="dateType"></xs:element>
+        <xs:element name="questions" type="questionCollectionType"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="dateType">
+    <xs:sequence>
+      <xs:element name="mois" type="xs:gMonth"></xs:element>
+      <xs:element name="annee" type="xs:gYear"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="questionCollectionType">
+    <xs:sequence>
+      <xs:element name="question" type="questionType" minOccurs="5" maxOccurs="6"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="questionType">
+    <xs:sequence>
+      <xs:element name="partie" type="partieType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="partieType" mixed="true">
+    <xs:sequence>
+      <xs:element name="partie" type="partieType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

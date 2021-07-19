@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bibliographie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="livres" type="livreCollectionType"></xs:element>
+        <xs:element name="articles" type="articleCollectionType"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="livreCollectionType">
+    <xs:sequence>
+      <xs:element name="livre" type="livreType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="articleCollectionType">
+    <xs:sequence>
+      <xs:element name="article" type="articleType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="titre" type="xs:string"></xs:element>
+  <xs:element name="auteur" type="xs:string"></xs:element>
+  <xs:element name="avis" type="xs:string"></xs:element>
+  
+  <xs:complexType name="livreType">
+    <xs:sequence>
+      <xs:element ref="titre"></xs:element>
+      <xs:element ref="auteur" maxOccurs="unbounded"></xs:element>
+      <xs:element name="tomes" type="tomeCollectionType"></xs:element>
+      <xs:element name="infosEdition" type="infosEditionType"></xs:element>
+      <xs:element ref="avis" minOccurs="0"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="articleType">
+    <xs:sequence>
+      <xs:element ref="titre"></xs:element>
+      <xs:element ref="auteur" maxOccurs="unbounded"></xs:element>
+      <xs:element name="infosPublication" type="infosPublicationType"></xs:element>
+      <xs:element ref="avis" minOccurs="0"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="tomeCollectionType">
+    <xs:sequence>
+      <xs:element name="tome" type="tomeType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tomeType">
+    <xs:sequence>
+      <xs:element name="pages" type="xs:positiveInteger"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infosEditionType">
+    <xs:sequence>
+      <xs:element name="editeur" type="xs:string"></xs:element>
+      <xs:element name="lieuEdition" type="xs:string"></xs:element>
+      <xs:element name="lieuImpression" type="xs:string"></xs:element>
+      <xs:element name="ISBN" type="xs:string"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="infosPublicationType">
+    <xs:sequence>
+      <xs:element name="nomJournal" type="xs:string"></xs:element>
+      <xs:element name="pages" type="xs:positiveInteger"></xs:element>
+      <xs:element name="anneePublication" type="xs:positiveInteger"></xs:element>
+      <xs:element name="numéroJournal" type="xs:positiveInteger"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

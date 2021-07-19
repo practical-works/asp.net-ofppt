@@ -1,0 +1,7 @@
+<!ELEMENT carnet (personne+)>
+<!ELEMENT personne EMPTY>
+<!ATTLIST personne
+  nom CDATA #REQUIRED
+  prenom CDATA #REQUIRED
+  adresse CDATA #REQUIRED
+>
